@@ -1,0 +1,108 @@
+.lang-menu {
+  position: absolute; left: 812px; right: 26px; top: 288px; bottom: 1542px;
+  width: 242px;
+  height: 90px;
+  border-radius: 15px;
+  background-color: #161c24;
+  z-index: 2;
+}
+.lang-menu .selected-lang {
+  display: flex;   
+  justify-content: space-between;
+  line-height: 0;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: Roboto;
+  text-shadow: 0 1px 20px #4f9ab6, 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 3.3;
+  letter-spacing: normal;
+  text-align: center;
+  outline: none;
+  margin-right: 44px;
+}
+.lang-menu .selected-lang:before {
+  content: '';
+  width: 55px;
+  height: 55px;
+  margin-top: 17px;
+  margin-left: 19px;
+  background-image: url(../images/en.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lang-menu ul {
+  position: absolute; 
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #161c24;
+  border: none;
+  right: 0px;
+  width: 242px;
+  border-radius: 15px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+  
+}
+
+
+.lang-menu ul li {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang-menu ul li a {
+  color: #ffffff !important;
+  font-size: 28px;
+  font-family: Roboto;
+  text-shadow: 0 2px 20px #4f9ab6, 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  /* text-align: center; */
+  outline: none;
+  text-decoration: none;
+  width: 242px;
+  padding: 5px 10px;
+  display: block;
+}
+
+.lang-menu ul li:hover {
+  background-color: #2f373d;
+  border-radius: 15px;
+}
+
+.lang-menu ul li a:before {
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  margin-right: 17px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.en:before {
+  background-image: url(../images/en.png);
+  margin-top: 1px;
+  margin-left: 19px;
+}
+
+.cz:before {
+  background-image: url(../images/cs.png);
+  margin-top: 1px;
+  margin-left: 19px;
+}
+
+.lang-menu:hover ul {
+  display: block;
+}

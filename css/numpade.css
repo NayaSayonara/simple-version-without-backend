@@ -1,0 +1,282 @@
+#contanier{
+  
+}
+
+#write{
+  position: absolute; left: 75px; right: 75px; top: 522px; bottom: 1078px;
+  width: 930px;
+height: 320px;
+text-shadow: 0 2px 20px #4f9ab6, 0 2px 4px rgba(0, 0, 0, 0.5);
+font-family: Roboto;
+font-size: 115px;
+font-weight: 500;
+font-stretch: normal;
+font-style: normal;
+line-height: 2.7;
+letter-spacing: normal;
+text-align: center;
+color: #ffffff;
+background-color: transparent;
+border: none;
+outline: none;
+resize: none;
+cursor: none;
+caret-color: transparent;
+z-index: 1;
+
+}
+::placeholder{
+  text-shadow: 0 2px 20px #4f9ab6, 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Roboto;
+  font-size: 115px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  white-space: pre-wrap;
+  
+}
+.fbutton_1{
+  position: absolute; left: 324px; right: 626px; top: 866px; bottom: 864px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.fbutton_2{
+  position: absolute; left: 475px; right: 475px; top: 866px; bottom: 864px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_3{
+  position: absolute; left: 626px; right: 324px; top: 866px; bottom: 864px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_4{
+  position: absolute; left: 324px; right: 626px; top: 1018px; bottom: 712px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_5{
+  position: absolute; left: 475px; right: 475px; top: 1018px; bottom: 712px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_6{
+  position: absolute; left: 626px; right: 324px; top: 1018px; bottom: 712px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_7{
+  position: absolute; left: 324px; right: 626px; top: 1169px; bottom: 561px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_8{
+  position: absolute; left: 475px; right: 475px; top: 1169px; bottom: 561px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_9{
+  position: absolute; left: 626px; right: 324px; top: 1169px; bottom: 561px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_0{
+  position: absolute; left: 475px; right: 475px; top: 1320px; bottom: 410px;
+    width: 130px;
+    height: 130px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: #5c6e7b;
+    outline: none;
+    border: none;
+    /* cursor: none; */
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.8;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+.fbutton_back{
+  position: absolute; left: 324px; right: 626px; top: 1320px; bottom: 410px;
+  width: 130px;
+  height: 130px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #b63042;
+  outline: none;
+  border: none;
+  /* cursor: none; */
+  font-family: LucidaGrande;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.8;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.fbutton_ok{
+  position: absolute; left: 626px; right: 324px;top: 1320px; bottom: 410px;
+  width: 130px;
+  height: 130px;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #13c24d;
+  outline: none;
+  border: none;
+  /* cursor: none; */
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}

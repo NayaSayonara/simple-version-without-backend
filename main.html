@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+     <meta charset="utf-8">
+     <title>project</title>
+
+ </head>
+
+<body>
+
+     <header class="header" id="header" onclick="handleClick(this)">
+         
+          <div class="rec_info">
+               <div class="info">Informace +420 xxx xxx podpora@xxxxxx.xx</div>
+          </div>
+     
+     </header>
+     <script src="../project/js/header.js"></script>
+     <main class="wrapper">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+     <div class="numpad">
+          
+     </div>
+     <div class="numpad">
+        <img src="images/numpad.png" class="picnum" alt="">
+        <div class="Active-button"> Numpad </div>
+</div>
+
+<nav class="lang-menu">
+<div class="selected-lang">
+ English
+</div>
+<ul>
+ <li>
+     <a href="#en" class="en">English</a>
+ </li>
+ <li>
+     <a href="main_cz.html" class="cz">Čeština</a>
+ </li>
+</ul>
+</nav>  
+<link rel="stylesheet" type="text/css" href="css/langswitcher.css"/>
+
+<!-- NUMPAD -->
+<div id="first">
+<form>
+        <textarea id="write" disabled placeholder="Choose
+product" ></textarea> 
+             
+   <input type="button" class="fbutton_1" id="one" value="1"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_2" id="two" value="2"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_4" id="four" value="4"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_3" id="three" value="3"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_5" id="five" value="5" onClick=addNumber(this);>    
+   <input type="button" class="fbutton_6" id="six" value="6"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_7" id="seven" value="7"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_8" id="eight" value="8"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_9" id="nine" value="9"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_0" id="zero" value="0"  onClick=addNumber(this);>
+   <input type="button" class="fbutton_back" id="back" value="⌫" onClick="removeNum(document.getElementById('write'))">
+   <input type="button" class="fbutton_ok" id="ok" value="OK" >
+   <!-- для ок submit -->
+</form>
+</div>
+
+<link rel="stylesheet" type="text/css" href="css/numpade.css"/>
+<script src="../project/js/textarea.js"></script>
+<script src="../project/js/keyboard.js"></script>
+<script src="../project/js/backspace.js"></script>
+<script src="../project/js/productpade.js"></script>
+
+
+<!-- END NUMPAD -->
+
+<!-- PRODUCT PAGE -->
+
+<div class="product" id="second" hidden >
+<input type="button" class="close" id="close" value="Close" onclick="hideshow()">
+
+<div> <img src="../project/images/cola.jpg" class="pic_product" alt=""> </div>
+
+<div class="price"> Price <br> XX.XX CZK </div>
+
+<div class="name">Long product name <br> example</div>
+
+   <div class="text">Coca-Cola je nejpopulárnější a nejprodávanější nealkoholický nápoj v historii a jako značka patří mezi nejznámější na světě. Vytvořil ji v Atlantě (stát Georgia) v roce 1886 Dr. John S. Pemberton smícháním Coca-Cola sirupu s vodou nasycenou oxidem uhličitým. </div>
+
+<input type="button" class="payment_button" id="payment_button" value="Payment XX.XX CZK" onclick="thirdPage()">
+
+</div>
+
+<script>
+function hideshow() {
+document.getElementById("second").hidden = true;
+document.getElementById("first").hidden = false;
+document.getElementById("write").value = "";
+}
+</script>
+
+<script>
+function thirdPage() {
+document.getElementById("second").hidden = true;
+document.getElementById("third").hidden = false;
+}
+</script>
+<!-- END PRODUCT PAGE -->
+
+<!-- NEW PAGE -->
+
+
+<!-- SELECT PAYMENT METHOD -->
+
+<div class="payment" id="third" hidden> <!--??-->
+
+<input type="button" class="back_button" id="back_button" value="Back" onclick="backPage()">
+
+<input type="button" class="cancel_button" id="cancel_button" value="Cancel order" onclick="cancelOrder()">
+
+<div class="select">Select <br> 
+             payment method</div>
+
+   
+   <button type="button" class="rectangle_1" id="rectangle_1" onclick="selectCreditCard()">
+             <img src="../project/images/cashless.png" class="card" alt="">
+   </button>
+   <div class="credit_card">Credit card</div>
+   
+   
+   
+   <button type="button" class="rectangle_2" id="rectangle_2" onclick="selectCash()" >
+        <img src="../project/images/coins.png" class="coin" alt="">
+   </button>
+<div class="cash">Cash</div>
+
+</div>
+
+<script>
+function backPage() {
+document.getElementById("third").hidden = true;
+document.getElementById("second").hidden = false;
+}
+</script>
+
+<script>
+function cancelOrder() {
+document.getElementById("third").hidden = true;
+document.getElementById("first").hidden = false;
+document.getElementById("write").value = "";
+}
+</script>
+
+<script>
+function selectCreditCard() {
+document.getElementById("third").hidden = true;
+document.getElementById("forth").hidden = false;
+}
+</script>
+
+<script>
+function selectCash() {
+document.getElementById("third").hidden = true;
+document.getElementById("fifth").hidden = false;
+}
+</script>
+<!-- END SELECT PAYMENT METHOD -->
+
+<!-- CREDIT CARD -->
+<div class="payment" id="forth" hidden>
+
+<input type="button" class="cancel_button" id="cancel_button2" value="Cancel order" onclick="cancelOrderCard()">
+
+<div class="total">Total: <br> 123 CZK</div>
+
+<img src="../project/images/card.png" class="pic" alt="">
+
+</div>
+<script>
+function cancelOrderCard() {
+document.getElementById("forth").hidden = true;
+document.getElementById("first").hidden = false;
+document.getElementById("write").value = "";
+}
+</script>
+<!-- END CREDIT CARD -->
+
+<!-- CASH -->
+<div class="payment" id="fifth" hidden>
+
+<input type="button" class="cancel_button" id="cancel_button3" value="Cancel order" onclick="cancelOrderCash()">
+
+
+<div class="total">Total: <br> 123 CZK</div>
+
+<img src="../project/images/cash.gif" class="pic" alt="">
+
+
+</div>
+<script>
+function cancelOrderCash() {
+document.getElementById("fifth").hidden = true;
+document.getElementById("first").hidden = false;
+document.getElementById("write").value = "";
+}
+</script>
+<!-- END CASH -->
+
+
+
+</main>   
+<div class ="footer">
+          
+     </div>
+     
+</body>
+</html>
